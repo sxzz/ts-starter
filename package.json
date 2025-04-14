@@ -1,7 +1,7 @@
 {
   "name": "ts-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.7.1",
+  "packageManager": "pnpm@10.8.0",
   "description": "My awesome typescript library",
   "type": "module",
   "license": "MIT",
@@ -42,7 +42,7 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^6.1.1",
     "@sxzz/prettier-config": "^2.2.1",
-    "@types/node": "^22.14.0",
+    "@types/node": "^22.14.1",
     "bumpp": "^10.1.0",
     "eslint": "^9.24.0",
     "prettier": "^3.5.3",
