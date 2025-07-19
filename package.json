@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/sxzz/ts-starter.git"
   },
-  "author": "三咲智子 Kevin Deng <sxzz@sxzz.moe>",
+  "author": "Kevin Deng <sxzz@sxzz.moe>",
   "funding": "https://github.com/sponsors/sxzz",
   "files": [
     "dist"
@@ -40,9 +40,9 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.0.5",
+    "@sxzz/eslint-config": "^7.0.6",
     "@sxzz/prettier-config": "^2.2.3",
-    "@types/node": "^24.0.13",
+    "@types/node": "^24.0.15",
     "bumpp": "^10.2.0",
     "eslint": "^9.31.0",
     "prettier": "^3.6.2",
