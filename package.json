@@ -42,11 +42,11 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^7.0.6",
     "@sxzz/prettier-config": "^2.2.3",
-    "@types/node": "^24.0.15",
+    "@types/node": "^24.1.0",
     "bumpp": "^10.2.0",
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "prettier": "^3.6.2",
-    "tsdown": "^0.12.9",
+    "tsdown": "^0.13.0",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4"
