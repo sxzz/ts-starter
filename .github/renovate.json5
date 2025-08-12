@@ -1,4 +1,11 @@
 {
   extends: ['github>sxzz/renovate-config'],
   automerge: true,
+  automergeType: 'branch',
+  schedule: ['at any time'],
+  automergeSchedule: ['at any time'],
+  lockFileMaintenance: {
+    enabled: true,
+    schedule: ['at any time'],
+  },
 }
