@@ -1,7 +1,7 @@
 {
   "name": "ts-starter",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.23.0",
   "description": "My awesome typescript library",
   "type": "module",
   "license": "MIT",
@@ -40,15 +40,15 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.2.10",
-    "@sxzz/prettier-config": "^2.2.4",
+    "@sxzz/eslint-config": "^7.3.2",
+    "@sxzz/prettier-config": "^2.2.5",
     "@types/node": "^24.10.1",
     "bumpp": "^10.3.1",
     "eslint": "^9.39.1",
     "prettier": "^3.6.2",
-    "tsdown": "^0.16.4",
+    "tsdown": "^0.16.6",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.8"
+    "vitest": "^4.0.13"
   },
   "engines": {
     "node": ">=20.19.0"
