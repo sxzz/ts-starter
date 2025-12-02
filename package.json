@@ -1,32 +1,35 @@
 {
   "name": "ts-starter",
-  "version": "0.0.0",
-  "packageManager": "pnpm@10.22.0",
-  "description": "My awesome typescript library",
   "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.24.0",
+  "description": "My awesome typescript library",
+  "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
+  "funding": "https://github.com/sponsors/sxzz",
   "homepage": "https://github.com/sxzz/ts-starter#readme",
-  "bugs": {
-    "url": "https://github.com/sxzz/ts-starter/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sxzz/ts-starter.git"
   },
-  "author": "Kevin Deng <sxzz@sxzz.moe>",
-  "funding": "https://github.com/sponsors/sxzz",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/sxzz/ts-starter/issues"
+  },
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   },
   "scripts": {
     "lint": "eslint --cache .",
@@ -40,18 +43,15 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^7.2.10",
-    "@sxzz/prettier-config": "^2.2.4",
+    "@sxzz/eslint-config": "^7.4.1",
+    "@sxzz/prettier-config": "^2.2.6",
     "@types/node": "^24.10.1",
-    "bumpp": "^10.3.1",
+    "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
-    "prettier": "^3.6.2",
-    "tsdown": "^0.16.4",
+    "prettier": "^3.7.3",
+    "tsdown": "^0.17.0-beta.5",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.8"
-  },
-  "engines": {
-    "node": ">=20.19.0"
+    "vitest": "^4.0.15"
   },
   "prettier": "@sxzz/prettier-config"
 }
