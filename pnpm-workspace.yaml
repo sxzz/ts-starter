@@ -1,5 +1,8 @@
 packages: []
 
+allowBuilds:
+  esbuild: false
+
 trustPolicy: no-downgrade
 trustPolicyExclude:
   - chokidar@4.0.3

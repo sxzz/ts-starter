@@ -2,7 +2,7 @@
   "name": "ts-starter",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.1",
   "description": "My awesome typescript library",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
@@ -45,14 +45,14 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^7.4.3",
     "@sxzz/prettier-config": "^2.2.6",
-    "@types/node": "^24.10.4",
-    "@typescript/native-preview": "7.0.0-dev.20251214.1",
+    "@types/node": "^25.0.3",
+    "@typescript/native-preview": "7.0.0-dev.20251221.1",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.2",
     "prettier": "^3.7.4",
-    "tsdown": "^0.17.4",
+    "tsdown": "^0.18.2",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   },
   "prettier": "@sxzz/prettier-config"
 }
