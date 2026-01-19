@@ -43,13 +43,13 @@
   "devDependencies": {
     "@sxzz/eslint-config": "^7.4.5",
     "@sxzz/prettier-config": "^2.2.6",
-    "@types/node": "^25.0.8",
-    "@typescript/native-preview": "7.0.0-dev.20260114.1",
+    "@types/node": "^25.0.9",
+    "@typescript/native-preview": "7.0.0-dev.20260118.1",
     "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
-    "prettier": "^3.7.4",
-    "tsdown": "^0.20.0-beta.2",
-    "tsdown-preset-sxzz": "^0.2.0",
+    "prettier": "^3.8.0",
+    "tsdown": "^0.20.0-beta.3",
+    "tsdown-preset-sxzz": "^0.3.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.17"
   },
