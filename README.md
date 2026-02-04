@@ -1,7 +1,7 @@
 # ts-starter
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Open on npmx][npmx-version-src]][npmx-href]
+[![npm downloads][npmx-downloads-src]][npmx-href]
 [![Unit Test][unit-test-src]][unit-test-href]
 
 My awesome typescript library
@@ -44,9 +44,8 @@ npm i ts-starter
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/ts-starter.svg
-[npm-version-href]: https://npmjs.com/package/ts-starter
-[npm-downloads-src]: https://img.shields.io/npm/dm/ts-starter
-[npm-downloads-href]: https://www.npmcharts.com/compare/ts-starter?interval=30
+[npmx-version-src]: https://npmx.dev/api/registry/badge/version/ts-starter
+[npmx-downloads-src]: https://npmx.dev/api/registry/badge/downloads-month/ts-starter
+[npmx-href]: https://npmx.dev/ts-starter
 [unit-test-src]: https://github.com/sxzz/ts-starter/actions/workflows/unit-test.yml/badge.svg
 [unit-test-href]: https://github.com/sxzz/ts-starter/actions/workflows/unit-test.yml
