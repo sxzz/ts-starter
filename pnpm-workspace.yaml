@@ -1,7 +1,4 @@
 packages: []
 
-allowBuilds:
-  esbuild: false
-
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 604800 # 7 days
