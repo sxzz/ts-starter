@@ -27,7 +27,7 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=20.19.0"
+    "node": ">=22.18.0"
   },
   "scripts": {
     "lint": "eslint --cache .",
@@ -44,7 +44,7 @@
     "@sxzz/eslint-config": "^8.0.0",
     "@sxzz/prettier-config": "^2.3.1",
     "@types/node": "^25.6.0",
-    "@typescript/native-preview": "7.0.0-dev.20260429.1",
+    "@typescript/native-preview": "7.0.0-dev.20260501.1",
     "bumpp": "^11.0.1",
     "eslint": "^10.2.1",
     "prettier": "^3.8.3",
