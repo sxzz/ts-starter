@@ -2,7 +2,7 @@
   "name": "ts-starter",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@11.18.0",
+  "packageManager": "pnpm@11.21.0",
   "description": "My awesome typescript library",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
@@ -49,7 +49,7 @@
     "eslint": "^10.8.0",
     "prettier": "^3.9.6",
     "tsdown": "^0.22.14",
-    "tsdown-preset-sxzz": "^0.6.0",
+    "tsdown-preset-sxzz": "^0.7.0",
     "typescript": "~6.0.3",
     "vitest": "^4.1.10"
   },
